@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YuTopia</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/Hong Yu Logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/Hong Yu Logo.png" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+    h2 {
+        font-weight: bold;
+    }
+    </style>
+
+<style>
+    /* Style for regular sections */
+    .section {
+        border-bottom: 2px solid #ddd; /* Adjust the color and thickness as needed */
+        padding-bottom: 20px; /* Add padding to space the border from the content */
+        margin-bottom: 20px; /* Add margin to space the border from the next section */
+    }
+
+    /* Style for sections with hidden borders */
+    .no-border {
+        border-bottom: none;
+    }
+</style>
+
+<style> /*Button Color*/
+    .custom-button {
+        background-color: #00AEFF;
+        color: #fff; /* Set the text color to ensure readability */
+    }
+</style>
+
+    <!-- Background Color -->
+    <style>
+        body {
+            background: linear-gradient(135deg, #FFCE32, #FF5100);
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: #fff;
+            padding-top: 90px
+        }
+
+        a {
+    color: #0077cc; /* Default link color */
+    text-decoration: none; /* Remove underlines by default */
+    }
+
+    /* Define link styles on hover */
+    a:hover {
+        color: #005299; /* Change color on hover */
+        text-decoration: underline; /* Add underline on hover */
+    }
+
+    /* Define link styles for visited links, hidden because it doesn't look good. */
+    /*a:visited {
+        color: #87CEEB; /* Color for visited links 
+    }*/
+
+    /* Define link styles for active links (when clicked) */
+    a:active {
+        color: #003366; /* Color for active links */
+    }
+
+        /* Add more styles below */
+    
+    /* Style for back-to-top button */
+    #backToTopBtn {
+      position: fixed;
+      bottom: 40px;
+      right: 40px;
+      display: none;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 15px;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+
+    </style>
+ 
+    <!-- Bootstrap JS and Popper.js (Optional) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.8/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <!-- Logo -->
+        <a class="navbar-brand" href="index.htm">
+            <img src="images/Hong Yu Logo.png" alt="Hong Yu Logo" height="30">
+        </a>
+        <a class="navbar-brand" href="index.htm">Hong Yu Wong ~ 黄宏誉</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.htm">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.htm">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.htm">Impact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="library.htm">Library</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.htm">Contact</a>
+                </li>
+                <!-- Add more navigation items for other pages here! -->
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Page Content -->
+    <div class="container mt-5">
+        <!-- Introduction Section -->
+        <section class="section no-border section-odd mb-5">
+            <h1><strong>Welcome to My Own Personal Slice of the Internet!</strong></h1>
+            <p class="lead">Becoming the person I need to be, to see the changes I want to see.</p>
+        </section>
+
+        <!-- About Me Section -->
+        <section class="section section-even mb-5">
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <img src="images/Professional.png" class="img-fluid rounded-circle">
+                </div>
+                <div class="col-md-8">
+                    <h2>Hong Yu Wong 黄宏誉</h2>
+                    <!-- Need to find a way to make this look less crowded-->
+                    <h3>Project Manager | Technology Enthusiast</h3>
+                    <p class="lead">Masters of Management and Systems at New York University</p>
+                    <p>A perpetually curious, high-energy conductor committed to continuous learning. With a penchant for understanding and coordination, I provide an environment for incredible people to flourish so that we may collectively achieve more than was thought plausible.</p>
+                    <p>Currently residing in the "Concrete Jungle Where Dreams Are Made Of" 🗽</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- My Journey -->
+<section class="section section-odd mb-5">
+    <h2 class="text-center mb-4">My Journey</h2>
+    <div class="row">
+        <!-- Column 1 -->
+        <div class="col-md-4 text-right d-flex flex-column align-items-center">
+            <p class="lead"><u>The Road Behind</u></p>
+            <p class="text-center">
+                12 Unique Job Experiences<br>
+                6 Industries<br>
+                2 Experiences with Startups<br>
+                1.5 years Full-Time Project Management<br>
+                1 Bachelors of Tourism Management
+            </p>
+        <!-- Button for Column 1-->
+        <a href="portfolio.htm" class="btn btn-primary btn-lg custom-button">What Impacts?</a>
+        </div>
+        
+        <!-- Column 2 -->
+        <div class="col-md-4 text-center d-flex flex-column align-items-center">
+            <p class= "lead"><u>The Current Path</u></p>
+            <p class="text-center">
+                Director of Marketing, Management and Systems Student Association (MSSA)<br>
+                Wasserman Graduate Student Advisory Board (GSAB) <br>
+                Graduate Representative, NYU Product Management Club (PMC)<br>
+            </p>
+            <!-- Button for Column 2-->
+            <a href="about.htm#current-efforts" class="btn btn-primary btn-lg custom-button mb-3">How's it going?</a>
+        </div>
+        
+        <!-- Column 3 -->
+        <div class="col-md-4 d-flex flex-column align-items-center">
+            <p class="lead"><u>The World Ahead</u></p>
+            <p class="text-center">
+                My maiden stand up comedy experience<br>
+                Getting Knighted by His Majesty<br>
+            </p>
+            <!-- Button for Column 3 -->
+            <a href="about.htm#road-ahead" class="btn btn-primary btn-lg custom-button ">But Why Though?</a>
+        </div>
+    </div>
+    
+</section>
+
+    <!--Impact-->
+<section class="section section-odd mb-5">
+    <h2 class="text-center mb-4">Moments of Impact</h2>
+    <div class="row">
+        <!-- Column 1 -->
+        <div class="col-md-4 text-center d-flex flex-column align-items-center">
+        <p class= "lead mb-3">Leading the THON Time Capsule Team to Commemorate the 50th THON</p>
+        <img src="images/THON Time Capsule.png" alt="THON Time Capsule" class="mb-3">
+        
+        </div>
+        
+        <!-- Column 2 -->
+        <div class="col-md-4 text-center d-flex flex-column align-items-center">
+            <p class= "lead mb-3">Project Managing for an Esports Startup in 2023</p>
+            <img src="images/Esports Foundry Team.png" alt="Esports Foundry Team" class="mb-4">
+            <a href="portfolio.htm" class="btn btn-primary btn-lg custom-button">Explore More Moments</a>
+        </div>
+        
+        <!-- Column 3 -->
+        <div class="col-md-4 text-center d-flex flex-column align-items-center">
+            <p class= "lead mb-3">Raising $2,686,604.73 of Corporate Donations For The Kids in 2022</p>
+            <img src="images/THON 2022 Final Reveal.png" alt="THON 2022 Final Reveal" class="mb-3">
+        </div>
+
+    </div>
+            
+        </section>
+
+        <!-- Library Section -->
+        <section class="section section-odd mb-5 text-center">
+            <h2 class="text-center mb-4">Treasure Trove</h2>
+            <p class="lead">HTML | CSS | JavaScript | Project Management | Marketing</p>
+            <a href="library.htm" class="btn btn-primary btn-lg custom-button mt-3">Explore My Library</a>
+            <p></p>
+        </div>
+        </section>
+
+        <!-- Back-to-Top Button -->
+  <button id="backToTopBtn" onclick="scrollToTop()">Back to Top</button>
+        
+        <!-- Footer -->
+
+        <footer>
+        <section class="section no-border d-flex flex-column align-items-center">
+            <h2>Eager to Hear from You!</h2>
+            <p>Email: <a href="mailto:wonghyu2@gmail.com">wonghyu2@gmail.com</a></p>
+            <p>
+                <a href="https://www.linkedin.com/in/hongyuwong/" target="_blank">LinkedIn</a> |
+                <a href="https://www.instagram.com/h.yutube/" target="_blank">Instagram</a>
+            </p>
+        
+            <!-- Button -->
+            <section class="section no-border section mb-5">
+                <a href="contact.htm" class="btn btn-primary btn-lg custom-button">Want to Hear More?</a>
+            </section>
+        </section>
+    </footer>
+    
+    <!-- JavaScript to show/hide back-to-top button -->
+  <script>
+    window.onscroll = function() { scrollFunction() };
+
+    function scrollFunction() {
+      var backToTopBtn = document.getElementById("backToTopBtn");
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        backToTopBtn.style.display = "block";
+      } else {
+        backToTopBtn.style.display = "none";
+      }
+    }
+
+    function scrollToTop() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+
+</body>
+
+</html>

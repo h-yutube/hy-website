@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YuTopia</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/Hong Yu Logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/Hong Yu Logo.png" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        h2 {
+            font-weight: bold;
+        }
+    </style>
+
+    <!-- Style for regular sections -->
+    <style>
+        .section {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+
+        /* Style for sections with hidden borders */
+        .no-border {
+            border-bottom: none;
+        }
+    </style>
+
+    <!-- Button Color -->
+    <style>
+        .custom-button {
+            background-color: #00AEFF;
+            color: #fff;
+        }
+    </style>
+
+<!--Customer Column Left Align Style-->
+<style>
+    .custom-column {
+        text-align: left !important; /* Override Bootstrap text alignment */
+    }
+</style>
+
+    <!-- Background Color -->
+    <style>
+        body {
+            background: linear-gradient(135deg, #FFCE32, #FF5100);
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: #fff;
+            padding-top: 90px;
+        }
+
+        a {
+    color: #0077cc; /* Default link color */
+    text-decoration: none; /* Remove underlines by default */
+    }
+
+        /* Define link styles on hover */
+        a:hover {
+            color: #005299;
+            text-decoration: underline;
+        }
+
+        /* Define link styles for active links (when clicked) */
+        a:active {
+            color: #003366;
+        }
+    </style>
+
+<style>
+    /* Style to customize the appearance of the disclosure widget */
+    details summary {
+        cursor: pointer;
+        outline: none;
+    }
+
+    /* Style to hide the triangle icon in Firefox */
+    details summary::-webkit-details-marker {
+        display: none;
+    }
+
+    /* Style to customize the appearance of the collapsed content */
+    details[open] .collapsed-content {
+        display: block;
+    }
+    
+</style>
+
+<style>
+    .form-control {
+    width: 100%;
+}
+
+/* Style for back-to-top button */
+#backToTopBtn {
+      position: fixed;
+      bottom: 40px;
+      right: 40px;
+      display: none;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 15px;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+
+</style>
+
+    <!-- Bootstrap JS and Popper.js (Optional) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.8/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <!-- Logo -->
+        <a class="navbar-brand" href="index.htm">
+            <img src="images/Hong Yu Logo.png" alt="Hong Yu Logo" height="30">
+        </a>
+        <a class="navbar-brand" href="index.htm">Hong Yu Wong ~ 黄宏誉</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.htm">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.htm">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.htm">Impact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="library.htm">Library</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.htm">Contact</a>
+                </li>
+                <!-- Add more navigation items for other pages here! -->
+            </ul>
+        </div>
+    </nav>
+    
+    
+    <div class="container mt-5 text-center">
+        <div class="image-container">
+            <img src="images/music-to-my-ears-circle.png" alt="Music to my Ears">
+        </div>    
+        <!--Contact Form-->
+        <section class="section section-odd mb-5">
+            <h1><strong>Get In Touch With Me:</strong></h1>
+            <a href="images/Hong Yu Wong Resume.pdf" class="btn btn-primary btn-lg custom-button mt-3 mb-3" target="_blank">Download Resume</a>
+            <p class="lead">Quirky | Enthusiastic | Adventurous | Reliable</p>
+            
+         <!-- Contact Form -->
+         <iframe class="mb-3 mt-3" src="https://docs.google.com/forms/d/e/1FAIpQLScYkoIGFEuinjl6RtAJMGC9NKTdvguKzv6V98X7-SlfW7MzAg/viewform?embedded=true" width="640" height="831" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+    </div>
+
+    </section>
+
+    <!-- Back-to-Top Button -->
+  <button id="backToTopBtn" onclick="scrollToTop()">Back to Top</button>
+
+    <!--Footer-->
+    <footer>
+        <section class="section no-border d-flex flex-column align-items-center">
+            <h2>Catch Me On Socials!</h2>
+            <p>Email: <a href="mailto:wonghyu2@gmail.com">wonghyu2@gmail.com</a></p>
+            <p>
+                <a href="https://www.linkedin.com/in/hongyuwong/" target="_blank">LinkedIn</a> |
+                <a href="https://www.instagram.com/h.yutube/" target="_blank">Instagram</a>
+            </p>
+        </section>
+    </footer>
+
+    <!-- JavaScript to show/hide back-to-top button -->
+  <script>
+    window.onscroll = function() { scrollFunction() };
+
+    function scrollFunction() {
+      var backToTopBtn = document.getElementById("backToTopBtn");
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        backToTopBtn.style.display = "block";
+      } else {
+        backToTopBtn.style.display = "none";
+      }
+    }
+
+    function scrollToTop() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+
+</body>
+</html>
